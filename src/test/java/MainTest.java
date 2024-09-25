@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MainTest {
 
     @Test
-    public void sumTest() {
+    public void sumTest_whenValue4and7_expectValue11() {
         //GIVEN
         double a = 4;
         double b = 7;
@@ -18,7 +18,7 @@ public class MainTest {
     }
 
     @Test
-    public void isEvenTest() {
+    public void isEvenTest_whenValue4point7_expectFalse() {
         //GIVEN
         double a = 4.7;
 
@@ -30,7 +30,7 @@ public class MainTest {
     }
 
     @Test
-    public void productTest() {
+    public void productTest_whenValue4and7_expectValue28() {
         //GIVEN
         double a = 4;
         double b = 7;
@@ -43,19 +43,19 @@ public class MainTest {
     }
 
     @Test
-    public void toUppercaseTest() {
+    public void toUppercaseTest_hello_HELLO() {
         //GIVEN
-        String x = "hallo";
+        String x = "hello";
 
         //WHEN
         String actual = Main.makeUppercase(x);
 
         //THEN
-        assertEquals("HALLO", actual);
+        assertEquals("HELLO", actual);
     }
 
     @Test
-    public void isPositive() {
+    public void isPositive_whenValue47_expectTrue() {
         //GIVEN
         double a = 47;
 
