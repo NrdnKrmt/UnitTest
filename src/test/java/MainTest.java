@@ -43,7 +43,7 @@ public class MainTest {
     }
 
     @Test
-    public void toUppercaseTest_hello_HELLO() {
+    public void toUppercaseTest_when_hello_then_HELLO() {
         //GIVEN
         String x = "hello";
 
